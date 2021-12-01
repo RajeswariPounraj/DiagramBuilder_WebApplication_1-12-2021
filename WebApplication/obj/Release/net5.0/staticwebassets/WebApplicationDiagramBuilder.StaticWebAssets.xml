@@ -1,4 +1,0 @@
-﻿<StaticWebAssets Version="1.0">
-  <ContentRoot BasePath="/" Path="D:\DiagramBuilder-1-10-2021\DB-1-10-2021-Changes(8-10)\DB-CSS-25-10-2021\DB_TESTING_ISSUES\BLAZ-Diagrambuilder-1-12-2021\blazor-diagram-builder\WebApplication\bin\Release\net5.0\wwwroot\" />
-  <ContentRoot BasePath="_content/Syncfusion.Blazor" Path="D:\BLAZ-18321-PageBreakIssue\Syncfusion.Blazor\wwwroot\" />
-</StaticWebAssets>
