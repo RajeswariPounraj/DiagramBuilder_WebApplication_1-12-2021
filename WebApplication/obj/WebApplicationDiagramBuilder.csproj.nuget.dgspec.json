@@ -1,0 +1,281 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\DiagramBuilder-1-10-2021\\DB-1-10-2021-Changes(8-10)\\DB-CSS-25-10-2021\\DB_TESTING_ISSUES\\BLAZ-Diagrambuilder-1-12-2021\\blazor-diagram-builder\\WebApplication\\WebApplicationDiagramBuilder.csproj": {}
+  },
+  "projects": {
+    "D:\\BLAZ-18321-PageBreakIssue\\Syncfusion.Blazor\\Syncfusion.Blazor.csproj": {
+      "version": "18.2.0.56",
+      "restore": {
+        "projectUniqueName": "D:\\BLAZ-18321-PageBreakIssue\\Syncfusion.Blazor\\Syncfusion.Blazor.csproj",
+        "projectName": "Syncfusion.Blazor",
+        "projectPath": "D:\\BLAZ-18321-PageBreakIssue\\Syncfusion.Blazor\\Syncfusion.Blazor.csproj",
+        "packagesPath": "C:\\Users\\RajeswariPounraj\\.nuget\\packages\\",
+        "outputPath": "D:\\BLAZ-18321-PageBreakIssue\\Syncfusion.Blazor\\obj\\",
+        "projectStyle": "PackageReference",
+        "crossTargeting": true,
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\RajeswariPounraj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0",
+          "net6.0",
+          "netstandard2.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          },
+          "net6.0": {
+            "targetAlias": "net6.0",
+            "projectReferences": {}
+          },
+          "netstandard2.1": {
+            "targetAlias": "netstandard2.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Syncfusion.ExcelExport.Net.Core": {
+              "target": "Package",
+              "version": "[18.2.0.56, )"
+            },
+            "Syncfusion.PdfExport.Net.Core": {
+              "target": "Package",
+              "version": "[18.2.0.56, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+        },
+        "net6.0": {
+          "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Syncfusion.ExcelExport.Net.Core": {
+              "target": "Package",
+              "version": "[18.2.0.56, )"
+            },
+            "Syncfusion.PdfExport.Net.Core": {
+              "target": "Package",
+              "version": "[18.2.0.56, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+        },
+        "netstandard2.1": {
+          "targetAlias": "netstandard2.1",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.Web": {
+              "target": "Package",
+              "version": "[3.1.8, )"
+            },
+            "Microsoft.CSharp": {
+              "target": "Package",
+              "version": "[4.7.0, )"
+            },
+            "Newtonsoft.Json": {
+              "target": "Package",
+              "version": "[12.0.3, )"
+            },
+            "Syncfusion.ExcelExport.Net.Core": {
+              "target": "Package",
+              "version": "[18.2.0.56, )"
+            },
+            "Syncfusion.PdfExport.Net.Core": {
+              "target": "Package",
+              "version": "[18.2.0.56, )"
+            },
+            "System.Text.Json": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "NETStandard.Library": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "D:\\DiagramBuilder-1-10-2021\\DB-1-10-2021-Changes(8-10)\\DB-CSS-25-10-2021\\DB_TESTING_ISSUES\\BLAZ-Diagrambuilder-1-12-2021\\blazor-diagram-builder\\WebApplication\\WebApplicationDiagramBuilder.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\DiagramBuilder-1-10-2021\\DB-1-10-2021-Changes(8-10)\\DB-CSS-25-10-2021\\DB_TESTING_ISSUES\\BLAZ-Diagrambuilder-1-12-2021\\blazor-diagram-builder\\WebApplication\\WebApplicationDiagramBuilder.csproj",
+        "projectName": "WebApplicationDiagramBuilder",
+        "projectPath": "D:\\DiagramBuilder-1-10-2021\\DB-1-10-2021-Changes(8-10)\\DB-CSS-25-10-2021\\DB_TESTING_ISSUES\\BLAZ-Diagrambuilder-1-12-2021\\blazor-diagram-builder\\WebApplication\\WebApplicationDiagramBuilder.csproj",
+        "packagesPath": "C:\\Users\\RajeswariPounraj\\.nuget\\packages\\",
+        "outputPath": "D:\\DiagramBuilder-1-10-2021\\DB-1-10-2021-Changes(8-10)\\DB-CSS-25-10-2021\\DB_TESTING_ISSUES\\BLAZ-Diagrambuilder-1-12-2021\\blazor-diagram-builder\\WebApplication\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\RajeswariPounraj\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "D:\\BLAZ-18321-PageBreakIssue\\Syncfusion.Blazor\\Syncfusion.Blazor.csproj": {
+                "projectPath": "D:\\BLAZ-18321-PageBreakIssue\\Syncfusion.Blazor\\Syncfusion.Blazor.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Components.WebAssembly": {
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "Microsoft.AspNetCore.Components.WebAssembly.DevServer": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.4, )"
+            },
+            "System.Net.Http.Json": {
+              "target": "Package",
+              "version": "[5.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "downloadDependencies": [
+            {
+              "name": "Microsoft.NETCore.App.Runtime.browser-wasm",
+              "version": "[5.0.11, 5.0.11]"
+            }
+          ],
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.100-rc.2.21505.57\\RuntimeIdentifierGraph.json"
+        }
+      },
+      "runtimes": {
+        "browser-wasm": {
+          "#import": []
+        }
+      }
+    }
+  }
+}

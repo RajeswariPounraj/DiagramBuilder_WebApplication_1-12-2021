@@ -1,0 +1,92 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="Data\**" />
+    <Content Remove="Data\**" />
+    <EmbeddedResource Remove="Data\**" />
+    <None Remove="Data\**" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Compile Remove="Pages\DiagramOpenDialog.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Remove="Pages\PropertyPanel.razor" />
+    <Content Remove="Shared\NavMenu.razor" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Remove="Pages\2 files r here.zip" />
+    <None Remove="Shared\NavMenu.razor.css" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Include="wwwroot\assets\db-icons1\Fonts\All icons Metrop.svg" />
+    <None Include="wwwroot\assets\db-icons1\Fonts\Final diagram icons copy.svg" />
+    <None Include="wwwroot\assets\db-icons1\Fonts\New_DiagramBuilder_Font.svg" />
+    <None Include="wwwroot\assets\dbstyle\bpmn_images\Note.svg" />
+    <None Include="wwwroot\assets\dbstyle\common_images\blank_diagram.svg" />
+    <None Include="wwwroot\assets\dbstyle\common_images\blank_diagram_mind.svg" />
+    <None Include="wwwroot\assets\dbstyle\common_images\blank_diagram_org.svg" />
+    <None Include="wwwroot\assets\dbstyle\common_images\Icons_ClosedASMEArrowE.svg" />
+    <None Include="wwwroot\assets\dbstyle\common_images\Icons_ClosedDiamondE.svg" />
+    <None Include="wwwroot\assets\dbstyle\common_images\Icons_ClosedDotE.svg" />
+    <None Include="wwwroot\assets\dbstyle\common_images\Icons_FilledDotE.svg" />
+    <None Include="wwwroot\assets\dbstyle\common_images\linestyle\0,0.svg" />
+    <None Include="wwwroot\assets\dbstyle\common_images\linestyle\1,2.svg" />
+    <None Include="wwwroot\assets\dbstyle\common_images\linestyle\3,3.svg" />
+    <None Include="wwwroot\assets\dbstyle\common_images\linestyle\4,4,1.svg" />
+    <None Include="wwwroot\assets\dbstyle\common_images\linestyle\5,3.svg" />
+    <None Include="wwwroot\assets\dbstyle\common_images\Overview - Normal.svg" />
+    <None Include="wwwroot\assets\dbstyle\common_images\Overview.svg" />
+    <None Include="wwwroot\assets\dbstyle\flowchart_Images\Bank_Teller_Flow.svg" />
+    <None Include="wwwroot\assets\dbstyle\flowchart_Images\Credit_Card_Processing.svg" />
+    <None Include="wwwroot\assets\dbstyle\flowchart_Images\Developer_Workflow.SVG" />
+    <None Include="wwwroot\assets\dbstyle\Icons_FilledDotE.svg" />
+    <None Include="wwwroot\assets\dbstyle\mindmap_images\BusinessPlanning.SVG" />
+    <None Include="wwwroot\assets\dbstyle\mindmap_images\Mind_Map0.svg" />
+    <None Include="wwwroot\assets\dbstyle\mindmap_images\Mind_Map1.svg" />
+    <None Include="wwwroot\assets\dbstyle\mindmap_images\Mind_Map2.svg" />
+    <None Include="wwwroot\assets\dbstyle\mindmap_images\Mind_Map3.svg" />
+    <None Include="wwwroot\assets\dbstyle\mindmap_images\SoftwareLifeCycle.SVG" />
+    <None Include="wwwroot\assets\dbstyle\mindmap_images\TQM.SVG" />
+    <None Include="wwwroot\assets\dbstyle\orgchart_images\org-pattern1.svg" />
+    <None Include="wwwroot\assets\dbstyle\orgchart_images\org-pattern2.svg" />
+    <None Include="wwwroot\assets\dbstyle\orgchart_images\org-pattern3.svg" />
+    <None Include="wwwroot\assets\dbstyle\orgchart_images\org-pattern4.svg" />
+    <None Include="wwwroot\assets\dbstyle\orgchart_images\org-pattern5.svg" />
+    <None Include="wwwroot\assets\dbstyle\orgchart_images\org-pattern6.svg" />
+    <None Include="wwwroot\assets\dbstyle\orgchart_images\OrgRenderingStyle_1.svg" />
+    <None Include="wwwroot\assets\dbstyle\orgchart_images\OrgRenderingStyle_2.svg" />
+    <None Include="wwwroot\assets\dbstyle\orgchart_images\OrgRenderingStyle_3.svg" />
+    <None Include="wwwroot\assets\dbstyle\orgchart_images\OrgTemplate1.svg" />
+    <None Include="wwwroot\assets\dbstyle\orgchart_images\OrgTemplate2.svg" />
+    <None Include="wwwroot\assets\dbstyle\orgchart_images\OrgTemplate3.svg" />
+    <None Include="wwwroot\assets\dbstyle\orgchart_images\OrgTemplate4.svg" />
+    <None Include="wwwroot\assets\dbstyle\Theme - Disable.svg" />
+    <None Include="wwwroot\assets\dbstyle\Theme.svg" />
+    <None Include="wwwroot\assets\images\mail.svg" />
+    <None Include="wwwroot\assets\Outlook Icons\fonts\icomoon.svg" />
+    <None Include="wwwroot\css\bootstrap\bootstrap.min.css.map" />
+    <None Include="wwwroot\css\open-iconic\FONT-LICENSE" />
+    <None Include="wwwroot\css\open-iconic\font\fonts\open-iconic.svg" />
+    <None Include="wwwroot\css\open-iconic\ICON-LICENSE" />
+    <None Include="wwwroot\css\open-iconic\README.md" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\..\..\..\5-25-sourcefor list - backup\Syncfusion.Blazor\Syncfusion.Blazor.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Update="Parent\DiagramMain.razor">
+      <ExcludeFromSingleFile>true</ExcludeFromSingleFile>
+    </Content>
+  </ItemGroup>
+
+</Project>
